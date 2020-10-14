@@ -1,12 +1,14 @@
 import React from 'react';
 
+import './styles/global.css';
+
+import Routes from './routes';
+
 //JSX JavaScript XML
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello world</h1>
-    </div>
+    <Routes />
   );
 }
 
